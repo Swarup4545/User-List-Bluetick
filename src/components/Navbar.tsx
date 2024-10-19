@@ -66,19 +66,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </nav>
-    // <nav className="bg-blue-600 text-white p-4 shadow-md">
-    //   <div className="container mx-auto flex justify-between items-center">
-    //     <h1 className="text-2xl font-bold">User Management</h1>
-    //     <ul className="flex space-x-4">
-    //       <li>
-    //         <Link to="/" className="hover:text-blue-200">User List</Link>
-    //       </li>
-    //       <li>
-    //         <Link to="/add" className="hover:text-blue-200">Add User</Link>
-    //       </li>
-    //     </ul>
-    //   </div>
-    // </nav>
+    
   );
 };
 

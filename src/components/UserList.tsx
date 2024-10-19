@@ -38,10 +38,7 @@ const UserList: React.FC = () => {
           {users.map((user, index) => (
             <li key={index} className="bg-slate-800 rounded-lg shadow-md text-center">
               <div className='text-white py-7 px-3'>
-                {/* <p className="font-semibold font-bold text-3xl">Name: {user.first_name} {user.last_name}</p>
-                <p className='text-yellow-400'>Username: {user.username}</p>
-                <p>Age: {user.age}</p>
-                <p>Status: {user.marital_status}</p> */}
+                
                 <div className='flex w-full'><span>Name:</span><p className="font-semibold font-bold text-xl text-center ml-auto">{user.first_name} {user.last_name}</p></div>
                 <div className='flex w-full'><span>Username:</span><p className="font-semibold font-bold text-xl ml-auto">{user.username}</p></div>
                 <div className='flex w-full'><span>Age:</span><p className="font-semibold font-bold text-xl ml-auto">{user.age}</p></div>

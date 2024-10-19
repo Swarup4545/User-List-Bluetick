@@ -30,7 +30,7 @@ const UserForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log(user);  // for now just log the user
+    console.log(user);  
     navigate('/');
   };
 
